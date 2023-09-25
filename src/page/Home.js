@@ -3,6 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div>
+      node.js 
         <h2>React 프로젝트 생성 및 실행</h2>
         1. 비주얼코드 (react폴더 열기) <br />
         2. 터미널(ctrl + j) <br />

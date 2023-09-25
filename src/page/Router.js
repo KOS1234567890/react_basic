@@ -29,7 +29,7 @@ return (
         <button onClick={move}>CSS활용</button><br/><br/>
 
         <h2>useNavigate(이동,값 전달), useLocation(전달 값 확인)</h2>
-        *import &#123;useLocation,useNavigate,Link&#123; from 'react-router-dom'<br/>
+        *import &#123;useLocation,useNavigate,Link&#125; from 'react-router-dom'<br/>
         *const 변수명 = useNavigate();<br/>
         ㄴ 변수명('이동할 url',state)<br/><br/>
         * Link는 태그를 활용하여 이동하지만 Navigate는 스크립트 프로그래밍을 통해 이동하고 싶을때 주로 사용함

@@ -6,12 +6,13 @@ import Css from './page/Css';
 import Router from './page/Router';
 import Not from './page/Not';
 import StateProps from './page/StateProps';
+import GitDeploy from './page/GitDeploy';
 
 import {Link,BrowserRouter,Route,Routes} from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react_basic'>
     <div className='wrap'>
       <header>
         <nav>
@@ -20,6 +21,7 @@ function App() {
           <Link to="/img">IMAGE 활용 </Link>
           <Link to="/router" state='a100'>ROUTER(페이지 이동)</Link>
           <Link to="/props">State&Props </Link>
+          <Link to="/GitDeploy">Github Deploy</Link>
         </nav>
       </header>
       <main>
@@ -29,6 +31,7 @@ function App() {
           <Route path='/img' element={<Image/>} />
           <Route path='/router' element={<Router/>} />
           <Route path='/props' element={<StateProps data='1000' name='kos' />} />
+          <Route path='/gitDeploy' element={<GitDeploy/>} />
           <Route path='/*' element={<Not/>} />
           
         </Routes>
