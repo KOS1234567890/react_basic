@@ -1,8 +1,8 @@
 const staticCacheName = "version-1"
 const urlsToCache = [
-    "basic/public/index.html",
-    'basic/public/static/js/bundle.js',
-    'basic/public/manifest.json'
+    "/react_basic/index.html",
+    '/react_basic/static/js/bundle.js',
+    '/react_basic/manifest.json'
 ]
 
 const dynamicCache = "dynamicCache";
